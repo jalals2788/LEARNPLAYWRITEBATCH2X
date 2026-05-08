@@ -1,0 +1,18 @@
+var abc = 10;
+var _abc = 20;
+var $abc = 30;
+var abc123 = 40;
+var _123abc = 50;
+var $123abc = 60;
+
+var Jalal = "My Name is Jalal";
+var jalal = "My Name is Jalal";
+
+console.log("abc:", abc);
+console.log("_abc:", _abc);
+console.log("$abc:", $abc);
+console.log("abc123:", abc123);
+console.log("_123abc:", _123abc);
+console.log("$123abc:", $123abc);
+console.log("Jalal:", Jalal);
+console.log("jalal:", jalal);

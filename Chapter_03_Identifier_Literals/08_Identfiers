@@ -1,0 +1,24 @@
+// Examples of camelCase and snake_case in JavaScript
+
+// camelCase: Used for variables and functions
+// - First word lowercase, subsequent words capitalized
+let userName = "John Doe"; // camelCase
+let isUserLoggedIn = true; // camelCase
+let calculateTotalPrice = function (price, tax) { // camelCase
+    return price + (price * tax);
+};
+
+// snake_case: Used for constants or private variables
+// - All lowercase with underscores separating words
+const max_user_count = 100; // snake_case
+let user_first_name = "John"; // snake_case
+let user_last_name = "Doe"; // snake_case
+
+// Examples in use
+console.log("User:", userName);
+console.log("Logged in:", isUserLoggedIn);
+console.log("Total price:", calculateTotalPrice(100, 0.1)); // 110
+console.log("Max users:", max_user_count);
+console.log("Full name:", user_first_name + " " + user_last_name);
+console.log("Max users:", max_user_count);
+console.log("Full name:", user_first_name + " " + user_last_name);
