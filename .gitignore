@@ -1,8 +1,8 @@
 # Ignore npm dependencies
 node_modules/
 
-# Ignore local cloned repository mirror
-LearnPlaywrightBatch2x/
+# Track the LearnPlaywrightBatch2x chapter files, but ignore its Git metadata
+LearnPlaywrightBatch2x/.git/
 
 # Ignore temporary/redundant package files
 npm-debug.log*
